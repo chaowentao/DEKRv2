@@ -97,6 +97,10 @@ Experiments on the CrowdPose dataset show that our  method achieves superior com
 - Flip test is used.
 - GFLOPs is for convolution and linear layers only.
 
+1. **pose_hrnet_w18_dc*.yml**: some changes in adaptive convolution.
+2. **pose_hrnet_w18_gc*.yml**: some changes in group convolution.
+3. **pose_hrnet_w18_part*.yml**: some changes in human part prtition.
+
 
 ## Environment
 The code is developed using python 3.6 on Ubuntu 16.04. NVIDIA GPUs are needed. The code is developed and tested using 4 NVIDIA V100 GPU cards for HRNet-w32 and 8 NVIDIA V100 GPU cards for HRNet-w48. Other platforms are not fully tested.
