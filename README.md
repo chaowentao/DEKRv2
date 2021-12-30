@@ -85,8 +85,8 @@ Experiments on the CrowdPose dataset show that our  method achieves superior com
 | **pose_hrnet_w18_part_final** | - | - | - | - | - | - | - | - | - |
 
 ### Parms and Flops
-| Method             | time |  GFlops | Parms(M) |
-|--------------------|------|---------|-------|
+| Method             | time(ms) |  GFlops | Parms(M) |
+|--------------------|----------|---------|---|
 |**baseline**        | 175  | 18.806  | 9.655 |
 |**gc1**             | 170  | 18.803  | 9.654 |
 |**gc2**             | 146  | 18.803  | 9.654 |
