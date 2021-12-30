@@ -84,28 +84,14 @@ Experiments on the CrowdPose dataset show that our  method achieves superior com
 | **pose_hrnet_w18_part2**      | 0.606 | 0.823 | 0.652 | 0.710 | 0.914 | 0.756 | 0.679 | 0.617 | 0.510 |
 | **pose_hrnet_w18_part_final** | - | - | - | - | - | - | - | - | - |
 
+### Parms and Flops
+| Method             | time |  GFlops | Parms(M) |
+|--------------------|------|---------|-------|
+|**baseline**        | 175  | 18.806  | 9.655 |
+|**gc1**             | 170  | 18.803  | 9.654 |
+|**gc2**             | 146  | 18.803  | 9.654 |
+|**gc3**             | 174  | 18.806  | 9.655 |
 
-
-baseline
-
-flops: 18.806G parms: 9.655M
-total time: 174.50958895683289、
-per image time: 0.17450958895683288
-
-gc3
-flops: 18.806G parms: 9.655M
-total time: 173.67533683776855
-per image time: 0.17367533683776856
-
-gc2
-flops: 18.803G parms: 9.654M
-total time: 146.3964364528656
-per image time: 0.1463964364528656
-
-gc
-flops: 18.803G parms: 9.654M
-total time: 169.95253992080688
-per image time: 0.1699525399208069
 
 ### Note:
 - Flip test is used.
