@@ -148,7 +148,8 @@ The code is developed using python 3.6 on Ubuntu 16.04. NVIDIA GPUs are needed. 
    └── setup.py
    ```
 
-6. Download pretrained models and our well-trained models from zoo([OneDrive](https://mailustceducn-my.sharepoint.com/:f:/g/personal/aa397601_mail_ustc_edu_cn/EmoNwNpq4L1FgUsC9KbWezABSotd3BGOlcWCdkBi91l50g?e=HWuluh)) and make models directory look like this:
+6. The pretrained models will be come soon.
+<!-- 	and our well-trained models from zoo() and make models directory look like this:
     ```
     ${POSE_ROOT}
     |-- model
@@ -164,7 +165,7 @@ The code is developed using python 3.6 on Ubuntu 16.04. NVIDIA GPUs are needed. 
         `-- rescore
             |-- final_rescore_coco_kpt.pth
             `-- final_rescore_crowd_pose_kpt.pth
-    ```
+    ``` -->
    
 ### Data preparation
 
