@@ -1,4 +1,4 @@
-# DEKRv2: More Fast or Accurate than DEKR
+# (ICIP 2022) DEKRv2: More Fast or Accurate than DEKR
 
 ## Introduction
 Bottom-up human pose estimation has raised more investigation in recent years, especially dense keypoint regression. However, the state-of-art DEKR still has some aspects (e.g. speed and accuracy) to be improved. In this paper, we propose a new framework named **DEKRv2**, which has been improved compared to DEKR. We find that the multi-branch network in DEKR is very time-consuming because it is serial. We designed a more effective module based on Group Convolution to replace multi-branches network in DEKR, it can reduce reasoning time. When DEKR calculates the offset of each keypoint, it only considers the features of the current keypoint, and neglects the constraints between the adjacent keypoints. we adopt a coarse-to-fine feature extraction method to obtain more accurate feature location of keypoints for this problem. 
@@ -332,6 +332,14 @@ Our code is mainly based on [DEKR](https://github.com/HRNet/DEKR).
 ### Citation
 
 ```
+@inproceedings{DEKRv2,
+  title={High-fidelity face sketch-to-photo synthesis using generative adversarial network},
+  author={Chao, Wentao and Duan, Fuqing and Du, Peng and Zhu, Wanning and Jia, Tianyuan and Li, Deqi},
+  booktitle={2022 IEEE International Conference on Image Processing (ICIP)},
+  year={2022},
+  organization={IEEE}
+}
+
 @inproceedings{GengSXZW21,
   title={Bottom-Up Human Pose Estimation Via Disentangled Keypoint Regression},
   author={Zigang Geng, Ke Sun, Bin Xiao, Zhaoxiang Zhang, Jingdong Wang},
